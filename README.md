@@ -1,9 +1,10 @@
-Cześć 👋 Nazywam się Paweł-W88
-==============================
+Hi 👋 My name is Pawel-W88
+==========================
 
-* 🌍 Mieszkam w Deutschland, Duisburg
-* ✉️ Możesz się ze mną skontaktować pod [adresem rws.pawlak@gmail.com](mailto:rws.pawlak@gmail.com)[](mailto:rws.pawlak@gmail.com)
-* 🧠 Uczę się JavaScript, React i Node.JS
+* 🌍  I'm based in Deutschland, Duisburg
+* 🖥️  See my portfolio at [pawel-w88](http://http://127.0.0.1:5500/repo-Pawel/pawel-w88-portfolio/index.html)
+* ✉️  You can contact me at [rws.pawlak@gmail.com](mailto:rws.pawlak@gmail.com)
+* 🧠  I'm learning JavaScript, React and Node.JS
 
 ### Skills
 
