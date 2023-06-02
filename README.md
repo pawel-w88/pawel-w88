@@ -2,7 +2,6 @@ Cześć Nazywam się Paweł-W88![](https://user-images.githubusercontent.com/183
 
 ### Umiejętności
 
-
 <p align="left">
 <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/ danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a> <a href="https:
 // developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/ public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a> <
@@ -16,15 +15,13 @@ a href="https://nodejs.org/en/" target=" _blank" rel="noreferrer"><img src="http
 <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/ public/icons/skills/mongodb-colored.svg" width="36" height="36" alt="MongoDB" /></a>
 </p>
 
-
 ### Społeczności
 
 <p align="left"> </p> <a href="https://www.github.com/pawel-w88" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator /main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/pawel-wojciechowski- 123977256/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width=" 32" wysokość="32" /></a> <a href="https://www.twitter.com/EkPawlak" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main /public/icons/socials/twitter.svg" width="32" height="32" /></a>
-
 ### Odznaki
 
 <b>Moje statystyki GitHub</b>
 
 <a href="http://www.github.com/pawel-w88"><img src="https://github-readme-stats.vercel.app/api?username=pawel-w88&show_icons=true&hide=&count_private =true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="Statystyki GitHub użytkownika pawel-w88" /></a>
 
-<a href="https://github.com/pawel-w88" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pawel-w88&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+<a href="https://github.com/pawel-w88" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username =pawel-w88&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Najlepsze%20%Języki" alt="Najpopularniejsze języki" /></a>
