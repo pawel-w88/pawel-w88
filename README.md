@@ -2,7 +2,7 @@ Hi 👋 My name is Pawel-W88
 ==========================
 
 * 🌍  I'm based in Deutschland, Duisburg
-* 🖥️  See my portfolio at [pawel-w88](http://http://127.0.0.1:5500/repo-Pawel/pawel-w88-portfolio/index.html)
+* 🖥️  See my portfolio at [pawel-w88](http://127.0.0.1:5500/repo-Pawel/pawel-w88-portfolio/index.html)
 * ✉️  You can contact me at [rws.pawlak@gmail.com](mailto:rws.pawlak@gmail.com)
 * 🧠  I'm learning JavaScript, React and Node.JS
 
