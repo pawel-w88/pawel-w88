@@ -35,8 +35,4 @@ Hi 👋 My name is Pawel-W88
 
 <a href="https://github.com/pawel-w88" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pawel-w88&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pawel-w88/pawel-w88/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pawel-w88/pawel-w88/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/pawel-w88/pawel-w88/output/github-contribution-grid-snake.svg">
-</picture>
+![GitHub Contribution Snake](https://github.com/pawel-w88/pawel-w88/blob/output/github-contribution-grid-snake.gif)
