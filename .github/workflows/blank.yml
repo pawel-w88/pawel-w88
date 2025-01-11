@@ -2,43 +2,48 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # Uruchamia co 12 godzin
-  workflow_dispatch: # Umożliwia ręczne uruchomienie workflow
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 permissions:
-  contents: write # Umożliwia workflowowi zapisywanie zmian w repozytorium
+  contents: write
 
 jobs:
   build:
-    runs-on: ubuntu-latest # Uruchamia workflow na najnowszej wersji Ubuntu
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4 # Pobiera kod repozytorium
+      - uses: actions/checkout@v4
 
-      - uses: Platane/snk@v3 # Generuje animację węża
+      - name: Set Git identity
+        run: |
+          git config --global user.name "pawel-w88" # TWÓJ USERNAME WSTAWIENY
+          git config --global user.email "rws.pawlak@gmail.com" # ***WSTAW SWÓJ EMAIL!!!***
+
+      - uses: Platane/snk@v3
         id: snake-gif
         with:
-          github_user_name: pawel-w88 # ZASTĄP SWOIM USERNAME GITHUB
+          github_user_name: pawel-w88 # TWÓJ USERNAME WSTAWIENY
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake.gif
 
-      - name: Create output branch if it doesn't exist # Tworzy gałąź 'output', jeśli nie istnieje
+      - name: Create output branch if it doesn't exist
         run: |
           git checkout --orphan output
           git commit -m "Initial commit for output branch" --allow-empty
 
-      - name: Copy generated files # Kopiuje wygenerowane pliki do gałęzi 'output'
+      - name: Copy generated files
         run: cp -r dist/* .
 
-      - name: Update README.md # Aktualizuje plik README.md z odwołaniem do GIF-a
+      - name: Update README.md
         run: |
           echo "![GitHub Contribution Snake](https://github.com/pawel-w88/pawel-w88/blob/output/github-contribution-grid-snake.gif)" > README.md
           git add README.md
 
-      - name: Commit and push changes # Commituje i pushuje zmiany do gałęzi 'output'
+      - name: Commit and push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: output
-          force: true # Wymusza push, nawet jeśli gałąź lokalna i zdalna się różnią
+          force: true
